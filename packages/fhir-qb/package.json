@@ -1,5 +1,5 @@
 {
-  "name": "@asymmetrik/fhir-qb",
+  "name": "@caremesh/fhir-qb",
   "version": "0.12.6",
   "description": "FHIR query builder",
   "homepage": "https://github.com/Asymmetrik/node-fhir-server-core",
@@ -32,8 +32,8 @@
     "verbose": true
   },
   "dependencies": {
-    "@asymmetrik/fhir-qb-mongo": "^0.12.3",
-    "@asymmetrik/fhir-sanitize-param": "^1.1.6",
+    "@caremesh/fhir-qb-mongo": "^0.12.3",
+    "@caremesh/fhir-sanitize-param": "^1.1.6",
     "mathjs": "^9.5.1",
     "moment": "^2.24.0",
     "sequelize": "^6.8.0",

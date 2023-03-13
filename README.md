@@ -53,4 +53,4 @@ This library makes use of node's path module. This is potentially exploitable in
 
 ## License
 
-`@asymmetrik/node-fhir-server-core` is [MIT licensed](https://github.com/Asymmetrik/node-fhir-server-core/blob/master/LICENSE).
+`@caremesh/node-fhir-server-core` is [MIT licensed](https://github.com/Asymmetrik/node-fhir-server-core/blob/master/LICENSE).

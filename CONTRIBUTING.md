@@ -4,7 +4,7 @@ First off, Contributions are always welcome and we appreciate any help you can o
 
 ## Before you begin
 
-Below are some general guidelines we try to stick to on all of our FHIR related repositories. When contributing to `@asymmetrik/node-fhir-server-core`, we do ask that you do your best to follow these guidelines.
+Below are some general guidelines we try to stick to on all of our FHIR related repositories. When contributing to `@caremesh/node-fhir-server-core`, we do ask that you do your best to follow these guidelines.
 
 ### Branch Organization
 

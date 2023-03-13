@@ -1,5 +1,5 @@
 {
-  "name": "@asymmetrik/fhir-response-util",
+  "name": "@caremesh/fhir-response-util",
   "version": "1.2.4",
   "description": "Utility for handling the headers, content, and status types for a response.",
   "homepage": "https://github.com/Asymmetrik/node-fhir-server-core",

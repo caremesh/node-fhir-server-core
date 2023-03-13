@@ -1,5 +1,5 @@
 {
-  "name": "@asymmetrik/fhir-qb-mongo",
+  "name": "@caremesh/fhir-qb-mongo",
   "version": "0.12.4",
   "description": "FHIR query builder for Mongo DB",
   "homepage": "https://github.com/Asymmetrik/node-fhir-server-core",

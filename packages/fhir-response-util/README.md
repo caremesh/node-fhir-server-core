@@ -5,7 +5,7 @@
 ## Install
 
 ```shell
-yarn add @asymmetrik/fhir-response-util
+yarn add @caremesh/fhir-response-util
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ This is designed to be used in [node-fhir-server-core](https://github.com/Asymme
 This will set the correct Content-Type and status code while sending the json back to the client.
 
 ```javascript
-const handler = require('@asymmetrik/fhir-response-util');
+const handler = require('@caremesh/fhir-response-util');
 
 // Some controller
 function getPatientsController(req, res, next) {
@@ -45,7 +45,7 @@ function getPatientsController(req, res, next) {
 This will set the correct Content-Type and status code while sending the json back to the client.
 
 ```javascript
-const handler = require('@asymmetrik/fhir-response-util');
+const handler = require('@caremesh/fhir-response-util');
 
 // Some controller
 function getPatientController(req, res, next) {
@@ -68,7 +68,7 @@ function getPatientController(req, res, next) {
 This will set the correct Content-Location, Location, and ETag headers. As well as set the correct status code.
 
 ```javascript
-const handler = require('@asymmetrik/fhir-response-util');
+const handler = require('@caremesh/fhir-response-util');
 
 // Some controller
 function createPatientController(req, res, next) {
@@ -94,7 +94,7 @@ function createPatientController(req, res, next) {
 This will set the correct Content-Location, Last-Modified, Location, and ETag headers. As well as set the correct Content-Type and status code.
 
 ```javascript
-const handler = require('@asymmetrik/fhir-response-util');
+const handler = require('@caremesh/fhir-response-util');
 
 // Some controller
 function updatePatientController(req, res, next) {
@@ -120,7 +120,7 @@ function updatePatientController(req, res, next) {
 This will set the correct ETag header and status code.
 
 ```javascript
-const handler = require('@asymmetrik/fhir-response-util');
+const handler = require('@caremesh/fhir-response-util');
 
 // Some controller
 function removePatientController(req, res, next) {
@@ -145,7 +145,7 @@ function removePatientController(req, res, next) {
 This will set the correct Content-Type and status code while sending the json back to the client.
 
 ```javascript
-const handler = require('@asymmetrik/fhir-response-util');
+const handler = require('@caremesh/fhir-response-util');
 
 // Some controller
 function getPatientHistoryController(req, res, next) {

@@ -1,5 +1,5 @@
 {
-  "name": "@asymmetrik/sof-scope-checker",
+  "name": "@caremesh/sof-scope-checker",
   "version": "1.0.7",
   "description": "Smart on FHIR scope checker",
   "homepage": "https://github.com/Asymmetrik/node-fhir-server-core",

@@ -35,7 +35,7 @@ fhir-server
 Next, run:
 
 ```shell
-yarn add @asymmetrik/node-fhir-server-core
+yarn add @caremesh/node-fhir-server-core
 ```
 
 ### Create an entry file and a start script
@@ -43,7 +43,7 @@ yarn add @asymmetrik/node-fhir-server-core
 Let's start by creating an `index.js` file in the root of the project and add the following code to it:
 
 ```javascript
-const { initialize, loggers, constants } = require('@asymmetrik/node-fhir-server-core');
+const { initialize, loggers, constants } = require('@caremesh/node-fhir-server-core');
 
 let config = {};
 let server = initialize(config);
@@ -80,7 +80,7 @@ The next thing we want to do is run this file in node. Let's add a script to our
     "start": "node index.js"
   },
   "dependencies": {
-    "@asymmetrik/node-fhir-server-core": "^1.3.0"
+    "@caremesh/node-fhir-server-core": "^1.3.0"
   }
 }
 ```
@@ -127,7 +127,7 @@ The next thing we need to do is update our config in `index.js` to tell it we wa
 In `index.js`, add the following to the top of the file:
 
 ```javascript
-const { initialize, loggers, constants } = require('@asymmetrik/node-fhir-server-core');
+const { initialize, loggers, constants } = require('@caremesh/node-fhir-server-core');
 const { VERSIONS } = constants;
 ```
 

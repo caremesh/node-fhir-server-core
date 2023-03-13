@@ -5,7 +5,7 @@
 ## Install
 
 ```shell
-yarn add @asymmetrik/fhir-sanitize-param
+yarn add @caremesh/fhir-sanitize-param
 ```
 
 ## Usage

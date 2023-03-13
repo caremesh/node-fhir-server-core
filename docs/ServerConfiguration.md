@@ -141,7 +141,7 @@ Here is an example config with all the currently supported options. See descript
 #### `server.corsOptions`
 
 - **Type:** `object`
-- **Description:** Any default cors options you would like applied to all routes. Please see [https://github.com/expressjs/cors#configuration-options](https://github.com/expressjs/cors#configuration-options) for details. The `methods` configuration will not be honored if specified here. That is the only option controlled by `@asymmetrik/node-fhir-server-core` and cannot be overridden.
+- **Description:** Any default cors options you would like applied to all routes. Please see [https://github.com/expressjs/cors#configuration-options](https://github.com/expressjs/cors#configuration-options) for details. The `methods` configuration will not be honored if specified here. That is the only option controlled by `@caremesh/node-fhir-server-core` and cannot be overridden.
 - **Required:** No
 - **Default:** `none`
 

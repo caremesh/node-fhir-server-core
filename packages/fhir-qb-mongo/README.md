@@ -5,7 +5,7 @@
 ## Install
 
 ```shell
-yarn add @asymmetrik/fhir-qb-mongo
+yarn add @caremesh/fhir-qb-mongo
 ```
 
 ## Usage

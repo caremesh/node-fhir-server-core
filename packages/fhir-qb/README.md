@@ -5,16 +5,16 @@
 ## Install
 
 ```shell
-yarn add @asymmetrik/fhir-qb
+yarn add @caremesh/fhir-qb
 ```
 
 ## Arguments
 
-`@asymmetrik/fhir-qb` exports a single class called QueryBuilder. The QueryBuilder constructor takes 4 arguments:
+`@caremesh/fhir-qb` exports a single class called QueryBuilder. The QueryBuilder constructor takes 4 arguments:
 
 #### `packageName`
 
-Query builder implementation package to be required. Default: `@asymmetrik/fhir-qb-mongo`
+Query builder implementation package to be required. Default: `@caremesh/fhir-qb-mongo`
 
 #### `globalParameterDefinitions`
 

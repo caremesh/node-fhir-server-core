@@ -5,14 +5,14 @@
 ## Install
 
 ```shell
-yarn add @asymmetrik/sof-strategy
+yarn add @caremesh/sof-strategy
 ```
 
 ## Usage
 
 ```javascript
 // Returns a helper function to setup your strategy
-const smartBearerStrategy = require('@asymmetrik/sof-strategy');
+const smartBearerStrategy = require('@caremesh/sof-strategy');
 const passport = require('passport');
 
 // Create our strategy by giving it some config options, all are required
@@ -39,7 +39,7 @@ See [sof-strategy tests](https://github.com/Asymmetrik/node-fhir-server-core/tre
 
 ## Arguments
 
-`@asymmetrik/sof-strategy` exports a single function which takes a single options argument with the following properties.
+`@caremesh/sof-strategy` exports a single function which takes a single options argument with the following properties.
 
 #### `introspectionUrl`
 

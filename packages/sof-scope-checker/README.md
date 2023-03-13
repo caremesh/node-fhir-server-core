@@ -5,13 +5,13 @@
 # Install
 
 ```shell
-yarn add @asymmetrik/sof-scope-checker
+yarn add @caremesh/sof-scope-checker
 ```
 
 ## Usage
 
 ```
-const scopeChecker = require('@asymmetrik/sof-scope-checker');
+const scopeChecker = require('@caremesh/sof-scope-checker');
 
 let hasValidScopes = (name, action) => {
   return function (req, res, next) {
@@ -42,7 +42,7 @@ NOTE: The error returned is an extension of the native JS error. It adds a type 
 
 ## Arguments
 
-`@asymmetrik/sof-scope-checker` exports a single function which takes three arguments.
+`@caremesh/sof-scope-checker` exports a single function which takes three arguments.
 
 #### `name`
 
