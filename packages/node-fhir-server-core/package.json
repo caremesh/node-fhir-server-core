@@ -1,6 +1,6 @@
 {
   "name": "@caremesh/node-fhir-server-core",
-  "version": "2.2.9",
+  "version": "2.2.10",
   "description": "Node FHIR Rest API Server (careMESH fork)",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
